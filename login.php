@@ -13,7 +13,7 @@ if (isset($_POST["username"]) && isset($_POST["password"])) {
     // Cek apakah username dan password sesuai
     if ($username == "ajar.com" && $password == "ajar") {
         // Jika sesuai, redirect ke halaman company-profile.html
-        header("Location: .../company-profile.html"); // Gunakan path absolut
+        header("Location: company-profile.html"); // Gunakan path absolut
         exit(); // Pastikan script berhenti setelah redirect
     } else {
         // Jika tidak sesuai, tampilkan pesan gagal login
